@@ -1,0 +1,41 @@
+###########################################################
+#  COMMON SETTINGS                                        #
+###########################################################
+ debug_mode: false
+
+###########################################################
+# APPLICATION SETTINGS                                    #
+###########################################################
+ app_protocol: https
+ app_host: iversity.org
+
+###########################################################
+# GMAIL SETTINGS                                          #
+###########################################################
+ gmail_login: iversityautotester
+ gmail_pass: qscwdvefb
+ gmail_domain: gmail.com
+ gmail_timeout: 120
+
+###########################################################
+# TEST ENVIRONMENTS SETTINGS                              #
+###########################################################
+ driver: selenium
+ sel_browser: ff
+
+###########################################################
+# LOGGER SETTINGS                                         #
+###########################################################
+ txt_log: log.txt
+ selenium_server_log: selenium-server.log
+ html_log: 'log.html'
+ log_dir: "log"
+ required_clean_logs: true
+
+############################################################
+# TIMEOUTS                                                 #
+############################################################
+ timeout_tiny: 2
+ timeout_short: 5
+ timeout_small: 30
+ timeout_medium: 90

@@ -1,0 +1,14 @@
+.idea/
+config/custom.yml
+log/
+tmp/
+*.orig
+.rakeTasks
+.bundle
+.DS_STORE
+*.xml
+*.log
+*.pem
+build-number.txt
+*.*~
+capybara-*.html
