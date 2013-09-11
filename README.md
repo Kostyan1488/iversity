@@ -7,7 +7,9 @@ Implemented following test scenarios:
  * Public user should be able to register and enroll for a course
  * Registered user should have access to Dashboard page
 
-how to run:
+###how to use:
+
     bundle install
     bundle exec rspec
+    # or
     bundle exec rake rspec:all
