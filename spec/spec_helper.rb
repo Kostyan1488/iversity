@@ -19,6 +19,8 @@ RSpec.configure do |config|
     if sauce_driver?
       suite_name = "#{(ENV['RAKE_TASK'] || 'CUSTOM').sub("rspec:", '').upcase} #{settings.sl_browser_name.upcase}"
       Capybara.drivers[:sauce][].options[:desired_capabilities][:name] = suite_name
+    else
+      page.driver.browser.manage.window.maximize
     end
   end
 
